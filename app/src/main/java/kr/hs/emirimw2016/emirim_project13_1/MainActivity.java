@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
                 media.reset();
                 btnStart.setClickable(true);
                 btnStop.setClickable(false);
+                seek1.setProgress(0);
                 textMusic.setText("실행음악 중지: ");
                 textTime.setText(R.string.text_time);
 
